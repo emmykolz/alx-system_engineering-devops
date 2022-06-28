@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lra| head -n -2 | grep -c ^d
+ls -lra| grep -c ^d | grep -v '[^.]$'
