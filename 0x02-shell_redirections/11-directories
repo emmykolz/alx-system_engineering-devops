@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lra| head -n -2 | grep ^d | wc -l
+ls -lra| head -n -2 | grep -c ^d | wc -l
