@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lra| grep -c ^d | grep -v '[^.]$'
+ls -lra| grep ^d | grep -v '[^.]$'| wc -l
