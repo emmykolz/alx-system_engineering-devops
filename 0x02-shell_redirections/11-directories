@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa |tail -n +2 | grep ^d | wc -l
+ls -lRa |tail -n +5 | grep ^d | wc -l
